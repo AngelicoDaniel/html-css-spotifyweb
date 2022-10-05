@@ -56,6 +56,10 @@ section{
     margin: 0 auto;
 }
 
+.sticky{
+    background-color: yellow;
+    height: 10%;
+}
 
 
 footer{

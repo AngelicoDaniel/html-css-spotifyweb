@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 
+
 body{
     background-color: #171923;
     color: white;
@@ -24,7 +25,6 @@ body{
 }
 
 main{
-    border: 2px solid red;
     height: calc(100% - 7rem);
     
 }
@@ -35,14 +35,21 @@ nav{
     background-color: black;
     width: 15%;
     height: 100%;
-    border: 1px solid yellow;
 }
 
 .side-nav-main{
     flex-direction: column;
     display: flex;
     height: calc(100% - 5rem);
-    margin: auto;
+    padding: 20px;
+}
+
+.logo{
+    width: 60%; 
+}
+
+.logo-small{
+    display: none;
 }
 
 .side-nav-footer{
@@ -60,6 +67,7 @@ section{
     height: 8%;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 

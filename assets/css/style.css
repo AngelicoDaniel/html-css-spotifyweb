@@ -207,4 +207,49 @@ footer{
     padding: 5px;
 }
 
+.left-part{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.central-part{
+    flex-grow: 1;
+    margin: auto;
+    text-align: center;
+}
+
+
+.player-top ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-top i{
+    padding: 10px;
+}
+
+.right-part{
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-part i{
+    padding: 10px;
+}
+
+.volume{
+    vertical-align: middle;
+    width: 5rem;
+    height: 5px;
+    border: 2px solid #BBB9BD;
+    margin: auto;
+}
+
+
+
 

@@ -101,6 +101,8 @@ nav{
     margin: 10px 0;
 }
 
+/* main section */
+
 section{
     flex-grow: 1;
     margin: 0 auto;
@@ -108,11 +110,21 @@ section{
 }
 
 .sticky{
-    background-color: yellow;
+    background-color: rgba(0, 0, 0, 0.4);
     height: 8%;
     position: sticky;
     top: 0;
     z-index: 1;
+    text-align: right;
+}
+
+.upgrade-btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid white; 
+    display: inline-block;
+    margin: 5px;
+
 }
 
 
@@ -120,4 +132,6 @@ footer{
     background-color: #2A282A;
     color: white;
     height: 7rem;
+    position: fixed;
+    width: 100%;
 }

@@ -52,6 +52,21 @@ nav{
     display: none;
 }
 
+.playlist{
+    padding: 20px 0;
+}
+
+.plus{
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-size: 2rem;
+}
+
 .side-nav-footer{
     align-self: flex-end;
 }

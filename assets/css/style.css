@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #171923;
+}
+
+#vh-container{
+    height: 100vh;
+}

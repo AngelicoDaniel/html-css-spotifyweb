@@ -158,7 +158,9 @@ img{
     width: 100%;
 }
 
-
+.circle-artist{
+   clip-path: circle();
+}
 
 .genere{
     text-align: center;

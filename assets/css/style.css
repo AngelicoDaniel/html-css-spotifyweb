@@ -137,8 +137,33 @@ section{
     margin: auto;
     padding: 20px 0;
     font-size: .8rem;
+    justify-content: center;
 
 }
+
+/* colonne e box */
+
+.col{
+     
+     
+}
+
+.card{
+    padding: 20px;
+}
+
+.col img{
+    width: 100%;
+}
+
+
+
+.genere{
+    text-align: center;
+    padding: 10px;
+}
+
+
 
 
 footer{

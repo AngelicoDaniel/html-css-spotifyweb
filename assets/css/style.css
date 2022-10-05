@@ -208,7 +208,7 @@ footer{
 }
 
 .left-part{
-    width: 30%;
+    width: 20%;
     margin: auto;
     padding: 10px;
 }
@@ -231,7 +231,7 @@ footer{
 }
 
 .right-part{
-    width: 30%;
+    width: 20%;
     margin: auto;
     padding: 10px;
     justify-content: flex-end;

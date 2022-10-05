@@ -147,16 +147,14 @@ h1{
     padding: 10px 20px;
 }
 
-.col{
-     
-     
-}
 
 .card{
+    width: calc(100%/6);
     padding: 20px;
 }
 
-.col img{
+
+img{
     width: 100%;
 }
 

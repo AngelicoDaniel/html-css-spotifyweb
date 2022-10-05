@@ -14,6 +14,10 @@
     justify-content: space-between;
 }
 
+.whitespace{
+    white-space: none;
+}
+
 a{
     color: white;
 }
@@ -147,6 +151,10 @@ h1{
     padding: 10px 20px;
 }
 
+.col{
+
+    flex-wrap: wrap;
+}
 
 .card{
     width: calc(100%/6);
@@ -168,7 +176,7 @@ img{
 }
 
 
-
+/* footer */
 
 footer{
     background-color: #2A282A;
@@ -177,3 +185,26 @@ footer{
     position: fixed;
     width: 100%;
 }
+
+.player{
+    align-items: center;
+}
+
+.album-cover{
+    width: 20%;
+}
+
+.artist{
+    padding: 20px 5px;
+   
+}
+
+.song-icons{
+    align-items: center;
+}
+
+.song-icon{
+    padding: 5px;
+}
+
+

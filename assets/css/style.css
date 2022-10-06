@@ -202,6 +202,7 @@ footer{
     height: 7rem;
     position: fixed;
     width: 100%;
+    padding: 5px;
 }
 
 .player{
@@ -226,7 +227,7 @@ footer{
 }
 
 .left-part{
-    width: 250px;
+    width: 20%;
 }
 
 .central-part{
@@ -276,8 +277,7 @@ footer{
 }
 
 .right-part{
-    width: 250px;
-    margin: auto;
+    width: 20%;
     padding: 10px;
     justify-content: flex-end;
     align-items: center;
@@ -379,11 +379,11 @@ footer{
         padding: 5px;
     }
 
-   .doe i{
-    width: 24px;
-    height: 24px;
-    padding: 5px; 
-   }
+    .doe i{
+        width: 24px;
+        height: 24px;
+        padding: 5px; 
+    }
 
     nav span{
         display: none;
@@ -394,5 +394,50 @@ footer{
     hr{
         display: none;
     }
+
+    .song-icons{
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 5;
+
+    }
+
+    .player{
+    width: 100vw;
+    font-size: smaller;
+    }
+
+    .song-name{
+        display: flex;
+        flex-direction: column;
+        width: 5px;
+    }
+
+    .central-part{
+        width: 100%;
+    }
+    .left-part{
+        width: 100px;
+    }
+    .player-top i
+    {
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .player-bottom{
+        width: 100%;
+    }
+    .right-part
+    {
+        width: 50%;
+        padding: 5px;
+    }
+    .time-bar-right{
+        display: block;
+    }
+
+
+ 
+
 
 }

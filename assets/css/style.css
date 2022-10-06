@@ -45,6 +45,7 @@ nav{
     width: 15%;
     height: 100%;
     color: lightgray;
+    min-width: 200px;
 }
 
 .side-nav-main{
@@ -52,6 +53,11 @@ nav{
     display: flex;
     height: calc(100% - 5rem);
     padding: 20px;
+}
+
+li img{
+    width: 20%;
+    vertical-align: middle;
 }
 
 .logo{
@@ -115,7 +121,7 @@ nav{
 section{
     flex-grow: 1;
     margin: 0 auto;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .sticky{
@@ -125,6 +131,7 @@ section{
     top: 0;
     z-index: 1;
     text-align: right;
+    padding: 10px;
 }
 
 .upgrade-btn{
@@ -142,7 +149,6 @@ section{
     padding: 20px 0;
     font-size: .8rem;
     justify-content: center;
-
 }
 
 /* colonne e box */
@@ -159,6 +165,7 @@ h1{
 .card{
     width: calc(100%/6);
     padding: 20px;
+    text-align: center;
 }
 
 
@@ -175,6 +182,10 @@ img{
     padding: 10px;
 }
 
+.sub{
+    font-size: smaller;
+    margin: 0 20px;
+}
 
 /* footer */
 
@@ -224,10 +235,41 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 30%;
+    margin: auto;
 }
 
 .player-top i{
-    padding: 10px;
+    padding: 0px 20px;
+    margin: 15px 0;
+}
+
+.player-bottom{
+    width: 50%;
+    margin: auto;
+}
+
+.time-bar{
+    width: 80%;
+    margin: auto;
+    height: 5px;
+    border-radius: 5px;
+    background-color: black
+}
+
+.time-bar-right{
+    width: 30%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: black
+}
+
+.time-bar-partial{
+    width: 20%;
+    margin: 0;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #BBB9BD; 
 }
 
 .right-part{
@@ -241,6 +283,8 @@ footer{
 .right-part i{
     padding: 10px;
 }
+
+
 
 .volume{
     vertical-align: middle;

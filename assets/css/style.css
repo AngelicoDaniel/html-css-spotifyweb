@@ -304,17 +304,37 @@ footer{
         width: calc(100%/4);
         padding: 20px;
         text-align: center;
+        
     }
 }
 
-
 /* s */
 @media screen and (max-width: 425px) {
+.card{
+    width: calc(100%/2);
+    padding: 20px;
+    text-align: center;
+}
+}
+
+nav{
+    min-width: 30%;
+}
+
+nav{
+    font-size: small;
+}
+
+
+/* xs */
+@media screen and (max-width: 375px) {
     .card{
         width: calc(100%/2);
         padding: 20px;
         text-align: center;
     }
+
+
 
     .logo{
         display: none;

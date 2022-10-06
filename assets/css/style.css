@@ -147,6 +147,7 @@ section{
         justify-content: center;
         flex-wrap: wrap;
         margin: 10px;
+        font-size: small;
 }
 
 .navbar li {
@@ -320,16 +321,20 @@ footer{
     width: calc(100%/2);
     padding: 20px;
     text-align: center;
-}
+    }
+
+    nav{
+        min-width: 130px;
+        margin: 0;
+        padding: 3px;
+        font-size: small;
+    }
+    .logo img{
+        width: 50px;
+    }
+
 }
 
-nav{
-    min-width: 100px;
-    width: 100px;
-}
-nav{
-    font-size: small;
-}
 
 
 

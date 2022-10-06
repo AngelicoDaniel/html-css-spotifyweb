@@ -144,17 +144,23 @@ section{
 }
 
 .navbar{
-    width: 70%;
-    margin: auto;
-    padding: 20px 0;
-    font-size: .8rem;
-    justify-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px;
 }
 
+.navbar li {
+    padding: 5px;
+}
 /* colonne e box */
+
 
 h1{
     padding: 10px 20px;
+}
+
+.title{
+    font-weight: bolder;
 }
 
 .col{

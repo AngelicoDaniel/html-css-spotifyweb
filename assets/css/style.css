@@ -202,14 +202,19 @@ img{
 footer{
     background-color: #2A282A;
     color: white;
-    height: 6rem;
+    height: 7rem;
     position: fixed;
     width: 100%;
-    padding: 5px;
+    padding: .5rem;
+    font-size: small;
+    min-width: 100vw;
 }
+
+
 
 .player{
     align-items: center;
+    width: 100vw;
 }
 
 .album-cover{
@@ -218,12 +223,12 @@ footer{
 }
 
 .album-cover img{
-    width: 100%;
+    width: 80%;
     min-width: 2rem;
 }
 
 .artist{
-    padding: 20px 5px;  
+    padding: 1rem .2rem;  
 }
 
 .song-icons{
@@ -231,39 +236,43 @@ footer{
 }
 
 .song-icon{
-    padding: 5px;
+    padding: .2rem;
 }
 
 .left-part{
+    align-items: center;
     width: 20%;
 }
 
-.central-part{
-    width: 50%;   
+.central-part{  
+    width: 60%;
+    margin: auto;
+}
+
+.central-part li{
+    width: 2rem;
 }
 
 .player-top{
-    width: 50px;
     margin: auto;
-    min-width: 50px;
+    min-width: 2rem;
 }
 
 .player-top ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    margin: auto;
+  
 }
 
 .player-top i{
     padding: 0px 20px;
-    margin: 15px 0;
+    margin: 1rem 0;
 }
 
 .player-bottom{
-    width: 100%;
-    margin: auto;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .time-bar{
@@ -292,11 +301,13 @@ footer{
 }
 
 .right-part{
-    width: 20%;
-    padding: 10px;
+    flex-grow: 1;
     justify-content: flex-end;
     align-items: center;
- 
+    width: 10vw;
+}
+.right-part li{
+    width: 20px;
 }
 
 .right-part i{
@@ -417,44 +428,9 @@ footer{
 
     }
 
-    .player{
-    width: 100vw;
-    font-size: smaller;
-    }
+ 
 
-    .song-name{
-        display: flex;
-        flex-direction: column;
-        width: 5px;
-    }
 
-    .central-part{
-        width: 100%;
-        max-width: 100px;
-        position: relative;
-    }
-    .left-part{
-        width: 100px;
-    }
-    .player-top i
-    {
-        padding: 5px;
-        margin: 0 auto;
-    }
-    .player-bottom{
-        width: 100%;
-    }
-    .right-part
-    {
-        width: 20%;
-        padding: 5px;
-    }
-
-    .right-part i{
-        width: 20px;
-        padding: 5px;
-    }
-  
 
 
  

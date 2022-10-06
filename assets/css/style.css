@@ -213,8 +213,7 @@ footer{
 }
 
 .artist{
-    padding: 20px 5px;
-   
+    padding: 20px 5px;  
 }
 
 .song-icons{
@@ -225,22 +224,14 @@ footer{
     padding: 5px;
 }
 
-.left-part{
-    width: 20%;
-    margin: auto;
-    padding: 10px;
-}
-
 .central-part{
-    flex-grow: 1;
-    margin: auto;
-    text-align: center;
+    width: 50%;
 }
 
 
 .player-top ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 30%;
     margin: auto;
@@ -285,6 +276,7 @@ footer{
     padding: 10px;
     justify-content: flex-end;
     align-items: center;
+    min-width: 20px;
 }
 
 .right-part i{

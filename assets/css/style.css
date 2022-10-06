@@ -318,12 +318,14 @@ footer{
 }
 
 nav{
-    min-width: 30%;
+    min-width: 100px;
+    width: 100px;
 }
-
 nav{
     font-size: small;
 }
+
+
 
 
 /* xs */

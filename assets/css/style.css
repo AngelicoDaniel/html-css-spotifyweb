@@ -49,13 +49,14 @@ nav{
     height: 100%;
     color: lightgray;
     min-width: 200px;
+    font-size: .8rem;
 }
 
 .side-nav-main{
     flex-direction: column;
     display: flex;
     height: calc(100% - 5rem);
-    padding: 20px;
+    padding: 20px 5px;
 }
 
 li img{
@@ -165,6 +166,7 @@ h1{
 
 .title{
     font-weight: bolder;
+    font-size: .8rem;
 }
 
 .col{
@@ -401,6 +403,7 @@ nav li:hover{
     .logo img{
         width: 50px;
     }
+
 
 }
 

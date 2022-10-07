@@ -22,7 +22,7 @@
 }
 
 a{
-    color: white;
+    color: lightgray;
 }
 
 
@@ -321,6 +321,13 @@ footer{
     margin: auto;
 }
 
+
+/* hover */
+
+a:hover{
+    color: white;
+    border-bottom: 1px solid green ;
+}
 
 /* RESPONSIVE */
 

@@ -359,6 +359,17 @@ nav li:hover{
     left: 35%;
 }
 
+.upgrade-btn:hover{
+    transform: scale(1.1);
+}
+
+.time-bar-partial:hover{
+    background-color: green;
+}
+
+.song-icon:hover{
+    color: green;
+}
 
 /* RESPONSIVE */
 

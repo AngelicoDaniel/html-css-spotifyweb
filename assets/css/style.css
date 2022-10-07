@@ -232,6 +232,11 @@ footer{
     padding: 1rem .2rem;  
 }
 
+.artist .artist-name{
+    color: white;
+    font-weight: bolder;
+}
+
 .song-icons{
     align-items: center;
 }
@@ -319,6 +324,15 @@ footer{
     margin: auto;
 }
 
+.play-hover{
+    position: relative;
+}
+
+.hide{
+    display: none;
+}
+
+
 
 /* hover */
 
@@ -331,6 +345,20 @@ nav li:hover{
     color: white;
     border-left: 1px solid green;
 }
+
+.card img:hover{
+    background-color: #171923;
+    opacity: 0.5;
+    position: relative;
+}
+
+.play-hover img:hover + .hide{
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
 
 /* RESPONSIVE */
 
